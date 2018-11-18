@@ -6,4 +6,4 @@ from django.http import HttpResponse
 
 
 def homePageView(request):
-    return HttpResponse('Site de messages')
+    return render(request, 'index.html')
